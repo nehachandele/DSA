@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintDivision",
+            "request": "launch",
+            "mainClass": "PrintDivision",
+            "projectName": "DSA_eb0d832"
+        },
+        {
+            "type": "java",
             "name": "ArmstrongNum",
             "request": "launch",
             "mainClass": "ArmstrongNum",
