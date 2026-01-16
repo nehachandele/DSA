@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArmstrongNum",
+            "request": "launch",
+            "mainClass": "ArmstrongNum",
+            "projectName": "DSA_eb0d832"
+        },
+        {
+            "type": "java",
             "name": "CheckPalindrome",
             "request": "launch",
             "mainClass": "CheckPalindrome",
