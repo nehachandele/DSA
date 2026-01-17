@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "PrimeNumber",
+            "projectName": "DSA_eb0d832"
+        },
+        {
+            "type": "java",
             "name": "PrintDivision",
             "request": "launch",
             "mainClass": "PrintDivision",
