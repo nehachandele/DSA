@@ -13,6 +13,7 @@ public class Valid_Anagram(242) {
         return Arrays.equals(str1,str2);
     }
 
+}
 /**
 class Solution {
     public boolean isAnagram(String s, String t) {
@@ -40,5 +41,5 @@ class Solution {
 }
 
  */
-}
+
 
