@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class Valid_Anagram(242) {
+class Solution {
    
     public boolean isAnagram(String s, String t) {
         if(s.length()!=t.length()){
