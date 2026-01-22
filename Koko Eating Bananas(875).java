@@ -1,3 +1,4 @@
+import java.util.Arrays;
 class Solution {
     public int minEatingSpeed(int[] piles, int h) {
         int min = 1, max = Arrays.stream(piles).max().getAsInt();
