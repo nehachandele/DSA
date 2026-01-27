@@ -9,8 +9,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-import java.util.*;
-import java.lang.*;
+
 class Solution {
     public ListNode middleNode(ListNode head) {
         ListNode mid=head;

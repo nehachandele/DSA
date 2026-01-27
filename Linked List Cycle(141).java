@@ -9,8 +9,18 @@
  *     }
  * }
  */
+class ListNode {
+    int val;
+    ListNode next;
 
-public class Solution {
+    ListNode(int x) {
+        val = x;
+        next = null;
+    }
+}
+
+
+ class Solution {
     public boolean hasCycle(ListNode head) {
         ListNode slow =head;
         ListNode fast=head;
