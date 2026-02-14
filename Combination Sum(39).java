@@ -49,3 +49,25 @@ class Solution {
         return res;
     }
 }
+
+class Solution {
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        List<List<Integer>> res = new ArrayList<>();
+        Arrays.sort(candidates);  // Sort for early pruning
+        backtrack(candidates, target, 0, new ArrayList<>(), res);
+        return res;
+    }
+
+    private void backtrack(int[] nums, int remain, int start, List<Integer> temp, List<List<Integer>> res) {
+        if (remain == 0) {              // Found valid combination
+            res.add(new ArrayList<>(temp));
+            return;
+        }
+        for (int i = start; i < nums.length; i++) {
+            if (nums[i] > remain) break;  // Early pruning
+            temp.add(nums[i]);
+            backtrack(nums, remain - nums[i], i, temp, res); // reuse allowed
+            temp.remove(temp.size() - 1); // backtrack
+        }
+    }
+}
